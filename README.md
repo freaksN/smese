@@ -1,20 +1,8 @@
+# _SMESE_ is an application for automated metadata enrichment utilizing extracted metadata from the Semantic Web and Linked Data using Java Spring, NLP and ReactJS.
 # This project contains the Spring Boot `Backend` and the ReactJS `Frontend` of the SMESE - Prototype all bundled together.
 
 ## To run the project make sure port `8080` is free and no other application is currently using it and that you also have at least `Java 1.8` installed and that `Java` is also added to your environment variables!
 ## To be able to build the prototype make sure you have at least `Maven 3.6.3` installed and that `Maven` is also added to your environment variables!
-
-# How to run the SMESE prototype:
-## The fastest and easiest way to start the prototype is to use the provided `JAR` file within the directory of the project:
-
-1. Open your console: navigate to this project's directory and run the following command:
-
-``java -jar SMESE-prototype-0.0.1-SNAPSHOT.jar``
-
-2. After a couple of seconds you will be informed that the application is started and it is running on `port 8080`.
-3. Finally, to interact with the prototype open your browser and go to the following address:  `localhost:8080`. 
-
-      
-## If the provided `JAR` file is corrupted or you would like to build the project yourself and create your own `JAR` you could either import and build the project within your `IDE` or build the project using your console and `Maven`:
 
 # To build and run the project without importing it into an IDE:
 1. Make sure you have at least `Maven 3.6.3` and `Java 1.8` installed and both of them are added to your environment variables.
@@ -47,4 +35,4 @@ Once you have a successful build. You can start the application within your IDE.
 
 Finally, to interact with the prototype open your browser and go to the following address:  `localhost:8080`. 
 
-### Hint: The CoreNLP libraries adds the different annotatos one by one to the pipeline. As a result it takes a little bit of extra time to initiate the semantic metadata enrichment process only for the **first** uploaded file. However, this is only the case for the **first** uploaded file. For each uploaded file after this the process is not slowed down since all annotators are already added to the pipeline.  
+### Hint: The CoreNLP libraries adds the different annotators one by one to the pipeline. As a result it takes a little bit of extra time to initiate the semantic metadata enrichment process only for the **first** uploaded file. However, this is only the case for the **first** uploaded file. For each uploaded file after this the process is not slowed down since all annotators are already added to the pipeline.  
