@@ -1,0 +1,76 @@
+.semanticEnrichment {
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+.inputFileDiv {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.inputFile {
+    border: 2px solid #212529;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.extractedTextAndKeywords {
+    margin-top: 30px;
+}
+
+.keywordsExtractAction {
+    margin-top: 15px;
+}
+
+.rakeExtraction {
+    margin-top: 15px;
+}
+
+.keyAspects {
+    margin-top: 30px;
+}
+
+.keyAspectsInput {
+    border: 1px solid black !important;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.submitData {
+    margin-top: 5px;
+}
+
+.hotTopicsRef {
+    text-align: center;
+}
+
+.extractedTextParagraph {
+    margin: 0 10px 0 10px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.modal-header {
+    height: 100px;
+}
+
+.modal-dialog {
+    margin-top: 20%;
+}
+
+.loaderAnimation {
+    display: flex;
+    margin: 0 auto;
+}
+
+.enrichedAnnotations {
+    margin-top: 2%;
+    border: 2px solid #52864d;
+    word-break: break-word;
+    padding: 0 10px 0 10px;
+}

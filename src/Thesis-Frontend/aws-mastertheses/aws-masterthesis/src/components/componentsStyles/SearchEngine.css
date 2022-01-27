@@ -1,0 +1,28 @@
+.welcomeText {
+    text-align: center;
+}
+
+.searchField {
+    width: 50%;
+    margin: 5% 0 0 30%;
+}
+
+.expertCheck {
+    display: flex;
+    margin-top: 1%;
+}
+
+.submitButton {
+    margin: 1% 0 0 30%;
+}
+
+.searchResults {
+    margin: 5% 0 0 30%;
+    word-break: break-word;
+
+}
+
+.foundResults {
+    font-style: italic;
+    font-weight: bold;;
+}

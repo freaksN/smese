@@ -1,0 +1,28 @@
+.welcomeHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.smeseInfo {
+    margin-bottom: 20px;
+}
+
+.lead {
+    margin-top: 15px;
+}
+
+.hotTopics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.hotThemeCards {
+    background: #ebc093;
+}
+
+.hotTopicsHeader {
+    margin: 25px 0 25px 0;
+    text-align: center;
+}
